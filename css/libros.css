@@ -1,0 +1,258 @@
+.profile-card {
+    height: 250px;
+    width: 200px;
+    /* padding: 15px; */
+    margin: 100px 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 25px rgb(228, 228, 228),
+                -3px -3px 25px rgb(228, 228, 228);
+}
+
+.foto1 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/1793.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.bio {
+    color: #23070B;
+    text-align: center;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.bio h5 {
+    margin-top: -15px;
+}
+
+.bio p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.profile-card:hover .foto1 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+.profile-card:hover .bio {
+    transition: 1s;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.foto2 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/Balada_de_pajaros.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto2 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+.foto3 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/El_cielo_es.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto3 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+.foto4 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/El_desfile_nocturno.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto4 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+#contenedortwo {
+    margin-left: 420px;
+}
+
+.foto5 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/El_enigma_de_la_habitacion.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto5 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+.foto6 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/El_largo.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto6 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+.foto7 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/El_tatuador.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto7 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+.foto8 {                           /*copiar*/
+    width: 200px;
+    height: 250px;
+    background-image: url(/Portadas/Gente_normal.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transition: .5s;
+}
+
+.profile-card:hover .foto8 {                     /*copiar*/
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(21, 2, 131);
+    border-radius: 50%;
+    top: -30px;
+}
+
+
+
+.btn {
+    text-decoration: none;
+    font-size: 1.4rem;
+    user-select: none;
+    color: #ff4754;
+    display: flex;
+    align-items: center;
+}
+
+.btn .arrow {
+    margin-right: 1rem;
+    height: .1rem;
+    width: 2.5rem;
+    position: relative;
+    background: #ff4754;
+    transition: width .2 ease;
+}
+
+.btn:hover .arrow {
+    width: 4rem;
+}
+
+.btn .arrow::before, .btn .arrow::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ff4754;
+    height: .1rem;
+    width: .6rem;
+}
+
+.btn .arrow::before {
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+}
+
+.btn .arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: right top;
+}
+
+
+

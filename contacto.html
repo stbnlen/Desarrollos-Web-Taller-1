@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria Karma</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="karma.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container"></div>
+        <a id="header-title" href="index.html">Karma - Libreria</a>
+        <div class="ulnav">
+        <ul id="header-nav">
+            <li><a href="libros.html">Libros</a></li>
+            <li><a href="about.html">Sucursales</a></li>
+            <li><a href="contacto.html">Contactenos</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <main id="content">
+        <div class="container">
+            <div class="about">
+                <div class="about-author">
+                    <img src="me.png" alt="">
+                </div>
+                <h1 id="mensaje"></h1>
+                <h1 class="about-title">Contacte a la libreria Karma</h1>
+                <div class="about-content">
+                    <h3>Introduzca sus datos</h3>
+                    <label> Nombre y Apellido
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido" id="">
+                    </label>
+                    <br> <br> <br>
+                    <label> Email                         
+                    <input type="email" name="email" placeholder="Email" id="">
+                    </label>
+                    <br> <br> <br>
+                    <label> Numero Telefonico
+                    <input type="text" name="telefono" placeholder="Telefono" id="">
+                    </label>
+                    <br> <br> <br>
+                    <label> Comentarios
+                        <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <br> <br> <br>
+                    <button onclick="enviarComentario()">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer id="footer">
+        <div class="container"></div>
+        <div class="column">
+            <h4>Redes Sociales</h4>
+            <p>
+                <a href="https://twitter.com">Twitter</a>
+                <br> <br>
+                <a href="https://facebook.com">Facebook</a>
+                <br> <br>
+                <a href="https://instagram.com">Instagram</a>
+            </p>
+        </div>
+        <div class="column">
+            <h4>Libreria Karma</h4>
+            <p>Derechos reservados Karmen limitada</p>
+        </div>
+
+        <div class="column">
+            <h4>Servicios</h4>
+            <p>En construccion</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
